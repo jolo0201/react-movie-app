@@ -1,0 +1,58 @@
+body {
+	background: #141414;
+	color: #ffffff;
+}
+
+.movie-app > .row {
+	overflow-x: auto;
+	flex-wrap: nowrap;
+}
+
+.image-container {
+	position: relative;
+	transition: transform 0.2s;
+}
+
+.image-container:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+}
+
+.image-container:hover .overlay {
+	opacity: 1;
+}
+
+.overlay {
+	position: absolute;
+	background: rgba(0, 0, 0, 0.8);
+	width: 100%;
+	transition: 0.5s ease;
+	opacity: 0;
+	bottom: 0;
+	font-size: 20px;
+	padding: 20px;
+	text-align: center;
+}
+
+.movie-poster{
+  padding: 10px;
+  width: 100%;
+}
+
+.card {
+  margin-bottom: 4rem;
+  background-color: rgb(247, 247, 247);
+  height: 100%;
+  padding: 10px;
+}
+
+.card-title {
+  font-weight: 900;
+  flex-grow: 1;
+}
+.card-description {
+  font-size: 13px;
+
+  overflow: hidden;
+  height: 100px;
+}
