@@ -18,14 +18,7 @@ export default class NavbarComponents extends Component {
                 <Navbar.Collapse>
                     <Nav>
                         <Nav.Link  as={Link} to={"/home"}>Home</Nav.Link>
-                        <NavDropdown title='Movies'>
-                            <NavDropdown.Item as={Link} to={"/trending"}>Trending</NavDropdown.Item>
-                            <NavDropdown.Divider/>
-                            <NavDropdown.Item as={Link} to={"/popular"}>Popular</NavDropdown.Item>
-                            <NavDropdown.Item as={Link} to={"/latest"}>Latest</NavDropdown.Item>
-                        </NavDropdown>
                         <Nav.Link  as={Link} to={"/about"}>About</Nav.Link>
-                        <Nav.Link  as={Link} to={"/contact"}>Contact Us</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
