@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import {  Navbar, Nav, NavDropdown } from 'react-bootstrap';
+import {  Navbar, Nav, Image} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import logo from '../logo.svg';
+import logo from '../movie-icon.png';
 import { Outlet, Link } from "react-router-dom";
 
 export default class NavbarComponents extends Component {
@@ -10,7 +10,7 @@ export default class NavbarComponents extends Component {
         <div>
             <Navbar bg='dark' variant='dark' sticky='top' expand='md'>
                 <Navbar.Brand>
-                    <img src={logo} width={40} height={40}/>
+                    <Image src={logo} width={40} height={40}/>
                     React Movie Lister
                 </Navbar.Brand>
 
