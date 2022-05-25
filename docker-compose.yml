@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  sd:
+    image: sd
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+    build:
+      context: .
+      dockerfile: ./Dockerfile
