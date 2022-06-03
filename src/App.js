@@ -50,8 +50,8 @@ function Home() {
       <div className='row'>
       <div class="col-4 "></div>
         <div class="col-4">
-        <h3>Welcome to Movie Lister</h3>
-        <h4>A React App with Bootstrap Framework</h4>
+        <h3 className='home-header'>Welcome to Movie Engine</h3>
+        <h4 className='home-header-sub'>Search movies now</h4>
         </div>
         <div class="col-4"></div>
       </div>

@@ -1,5 +1,5 @@
 body {
-	background: #141414;
+	background-image:linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)), url("./bg.jpg"); ;
 	color: #ffffff;
 }
 
@@ -40,7 +40,6 @@ body {
 }
 
 .card {
-  margin-bottom: 4rem;
   background-color: rgb(247, 247, 247);
   height: 100%;
   padding: 10px;
@@ -56,3 +55,18 @@ body {
   overflow: hidden;
   height: 100px;
 }
+
+.home-header-sub{
+	font-size: 1.5em;
+	font-weight: normal;
+	color: #000;
+	text-align: center;
+	}
+	
+	.home-header{
+	font-size: 3em;
+	font-weight: bold;
+	color: #000;
+	text-align: center;
+	}
+	
